@@ -26,6 +26,12 @@ margin: auto;
 
 }
 
+main{
+
+margin: auto;
+
+}
+
 
 
 
@@ -107,6 +113,7 @@ section > div{
     justify-content: center;
     flex-direction: column;
     gap: 60px;
+    height: auto;
     
 
 
@@ -126,8 +133,8 @@ section > div > h1 {
 
 .ig-mai{
 
-    padding: 10px;
-    
+    padding: px;
+    height: auto;
     width: 7vw;
     
 
