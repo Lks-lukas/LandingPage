@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
+
+    --fonte-1:'Koulen', cursive;
+    --fonte-2:'Fredoka One', cursive;
+
+
+}
+
+body{
+
+background-color: #cccbcb;
+margin: auto;
+
+}
+
+
+
+
+
+.cabecalho{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.imagem-logo-inicial{
+
+    width: 150px;
+    height:150px;
+
+
+}
+
+.navegacao{
+    display: flex;
+    gap: 45px;
+
+
+}
+
+.link{
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: var(--fonte-2);
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.185)
+}
+
+a:hover{
+
+    text-decoration: underline;
+    color: rgb(25, 0, 255);
+}
+
+section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(/img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100%;
+    width: auto;
+    height: 100vh;
+  
+
+}
+
+.img-main{
+
+
+    
+    width: 50vw;
+    
+
+
+
+}
+
+section > div{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    
+
+
+}
+
+section > div > h1 {
+
+    font-family: var(--fonte-2);
+    font-size: 40px;
+    text-align: center;
+    max-width: 300px;
+    min-width: 150px;
+
+
+}
+
+
+.ig-mai{
+
+    padding: 10px;
+    
+    width: 7vw;
+    
+
+
+}
+
+.navegacao-2{
+
+    gap: 50px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    gap: 25px;
+
+
+
+}
+
+footer > img{
+
+    width: 40px;
+    height: 40px;
+
+}
+
+footer > p{
+
+    color: white;
+    font-family: var(--fonte-2);
+    font-size: 3vw;
+    font-variant: small-caps
+
+}
